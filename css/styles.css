@@ -1,0 +1,124 @@
+img{
+	max-width: 100%;
+}
+
+#header-wrapper{
+	width: 100%;
+	background-color: #3B5998;
+	height: 52px;
+}
+
+#header{
+	max-width: 900px;
+	height: 52px;
+	margin: auto;
+}
+#logo{
+	float: left;
+	height: 50px;
+	width: 25%;
+}
+
+#logo img{
+	width: 150px;
+}
+
+#right-header-wrapper{
+	float: right;
+	width: 75%;
+
+}
+
+#right-header-wrapper #search{
+	float: left;
+
+}
+#right-header-wrapper #nav-menu{
+	float: right;
+}
+#nav .nav-menu{
+	float: right;
+}
+
+#nav .nav-menu li {
+	float: left;
+	color: white;
+	line-height: 52px;
+	margin-right: px;
+	font-family: arial;
+	padding-right: 15px;
+}
+
+/* #search-bar{
+	position: absolute;
+	top: 15px;
+	left: 600px;
+} */
+
+#search-bar input{
+	height: 25px;
+	width: 300px;
+	margin-top: 17px;
+}
+
+#sub-header-wrapper{
+	background-color: #bbb;
+	width: 100%;
+	height: 100px;
+}
+#sub-header{
+	width: 30%;
+	margin: auto;
+	padding-top:40px;
+}
+#page-title{
+	display: inline-block;
+	text-align: center;
+}
+#like-button{
+	float: right;
+}
+#content{
+	max-width: 900px;
+	margin: auto;
+}
+
+#left, #main, #right{
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+
+#left{
+	width: 30%;
+	padding-right: 20px;
+	margin-top: -10px;
+}
+
+#main{
+	width: 50%;
+	margin-top: -10px;
+}
+
+#right{
+	width: 18%;
+	margin-top: 15px;
+}
+
+#main-nav, #share{
+	width: 100%;
+}
+
+#main-nav ul li{
+	float: left;
+	box-sizing: border-box;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+#share ul li{
+	float: left;
+}
+
+
+
